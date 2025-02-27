@@ -14,7 +14,7 @@ class LGL:
         D (np.ndarray): The differentiation matrix for computing derivatives.
     """
     
-    def __init__(self, p, L=1):
+    def __init__(self, p, L):
         """
         Initialize the LGL object with a given polynomial degree p and interval length L.
 
